@@ -1,0 +1,160 @@
+::placeholder {
+    color: rgb(214, 249, 227);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 545px;
+    padding: 95px 0px;
+    background-color: rgb(38, 6, 76);
+}
+
+.footer-contact {
+    width: 540px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.footer-contact-title {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer-contact-title > span {
+    color: rgb(27, 239, 197);
+}
+
+.footer-copyright {
+    color: rgb(91, 68, 112);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer-copyright span {
+    color: rgb(25, 89, 238);
+}
+
+.footer-copyright span:hover {
+    color: rgb(25, 60, 159);
+    cursor: pointer;
+}
+
+.footer-describe {
+    color: rgb(214, 255, 221);
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.footer-form {
+    width: 100%;
+}
+
+.form-inputInfo {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.form-inputInfo input {
+    padding-left: 29px;
+    width: 226px;
+    background-color: rgb(113, 86, 145);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: rgb(214, 249, 227);
+}
+
+.form-inputMessage {
+    padding: 15px 0px 0px 29px;
+    width: 511px;
+    height: 127px;
+    background-color: rgb(113, 86, 145);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: rgb(214, 249, 227);
+    margin-top: 15px;
+}
+
+.form-send {
+    margin-top: 20px;
+    width: 108px;
+    height: 52px;
+    background-color: rgb(27, 239, 197);
+    color: rgb(42, 45, 77);
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.form-send:hover {
+    cursor: pointer;
+}
+
+.footer-list_linked {
+    width: 540px;
+    padding-top: 13px;
+    display: grid;
+    grid-template-areas: 'myArea .';
+}
+
+.footer-list_linked-items {
+    padding: 0px 15px;
+    width: 210px;
+    height: 271px;
+}
+
+.footer-list_linked-items:nth-child(1) {
+    grid-area: "myArea";
+}
+
+.footer-list_linked-items:nth-child(1),
+.footer-list_linked-items:nth-child(2) {
+    margin-bottom: 45px;
+}
+
+.footer-list_linked-items div {
+    color: rgb(27, 239, 197);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.footer-list_linked-items > ul {
+    list-style: none;
+    margin-top: 36px;
+}
+
+.footer-list_linked > ul {
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.footer-list_linked > ul:nth-child(2) {
+    margin-bottom: 45px;
+}
+
+.footer-list_linked-items li {
+    line-height: 36px;
+}
+
+.footer-list_linked-title li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-list_linked-title li a:hover{
+    color: rgb(27, 239, 197);
+}

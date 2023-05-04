@@ -1,0 +1,83 @@
+/* CSS */
+.list-pack {
+    padding: 98px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pack-item {
+    border-right: 2px solid rgb(213,223,227);
+    border-top: 2px solid rgb(213,223,227);
+    border-bottom: 2px solid rgb(213,223,227);
+    overflow: hidden;
+    width: 275px;
+}
+
+.pack-item:hover
+.pack-title {
+    color: rgb(27, 239, 197);
+}
+
+.pack-title {
+    background-color: rgb(77, 29, 133);
+    text-align: center;
+    height: 129px;
+    line-height: 129px;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.pack-price {
+    height: 582px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pack-title-price {
+    color: rgb(113, 86, 145);
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+}
+
+.pack-title-price > span {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    bottom: -5px;
+    left: -5px;
+}
+
+.pack-feature {
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pack-feature > div > span {
+    margin-left: 5px;   
+}
+
+.pack-buy {
+    color: rgb(53,33,77);
+    background-color: rgb(27, 239, 197);
+    width: 123px;
+    height: 53px;
+    text-align: center;
+    line-height: 53px;
+    font-weight: 650;
+    border-radius: 10px;
+}
+
+.pack-buy:hover {
+    color: white;
+    background-color: rgb(113, 86, 145);
+}

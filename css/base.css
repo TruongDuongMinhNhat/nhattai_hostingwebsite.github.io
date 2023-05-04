@@ -1,0 +1,47 @@
+/* Khởi tạo biến */
+:root {
+    --aqua-color: rgb(26,233,193);
+    --light-aqua-color: rgb(197,251,241);
+    --light-grey-color: rgb(214,227,227);
+    --lighter-grey-color: rgb(245,247,248);
+}
+
+/* Animation */
+@keyframes shadowAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.display-hide {
+    display: none !important;
+}
+
+.display-show {
+    display: block !important;
+}
+
+.page-selected {
+    color: var(--aqua-color) !important;
+}
+
+.showAnimation {
+    animation: shadowAnimation 2s;
+}

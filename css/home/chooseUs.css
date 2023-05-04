@@ -1,0 +1,49 @@
+/* CSS */
+.chooseUs {
+    width: 100%;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.chooseUs-background {
+    width: 570px;
+}
+
+.chooseUs-content {
+    width: 540px;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.chooseUs-title {
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+}
+
+.chooseUs-describe {
+    color: rgb(144,144,155);
+    line-height: 25px;
+}
+
+.chooseUs-feature {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.chooseUs-feature > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chooseUs-feature > div > span {
+    padding-top: 20px;
+}

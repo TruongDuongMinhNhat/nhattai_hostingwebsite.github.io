@@ -1,0 +1,96 @@
+.search-domain {
+    width: 100%;
+    height: 152px;
+    background-color: rgb(37, 16, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.domain-input {
+    width: 724px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.domain-input>input {
+    width: 553px;
+    height: inherit;
+    outline: none;
+    border: none;
+    padding-left: 30px;
+    font-size: 25px;
+    color: rgb(31, 29, 34);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.domain-input>input::placeholder {
+    color: rgb(31, 29, 40);
+}
+
+.domain-input>div {
+    width: 122px;
+    height: inherit;
+    background-color: rgb(120, 54, 198);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.domain-input>div:hover {
+    cursor: pointer;
+}
+
+.domain-name {
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.domain-name>span {
+    margin-left: 28px;
+}
+
+.domain-name-list {
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    right: 30px;
+    background-color: white !important;
+    border-radius: 0px !important;
+    height: fit-content;
+    width: 110px;
+    display: none;
+}
+
+.domain-name-list>li {
+    text-align: left;
+    height: 36px;
+    font-size: 23px;
+    line-height: 36px;
+    padding-left: 19px;
+    padding-top: 10px;
+}
+
+.domain-name-list>li:hover {
+    color: aqua;
+}
+
+.search-domain button {
+    width: 166px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+}
+
+.search-domain button:hover {
+    background-color: white;
+    cursor: pointer;
+}

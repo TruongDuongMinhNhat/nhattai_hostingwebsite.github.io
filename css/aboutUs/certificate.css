@@ -1,0 +1,48 @@
+.certi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 96px;
+}
+
+.certi-items {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 232px;
+    width: 410px;
+    background-color: rgb(37,16,63);
+    margin: 0px 15px;
+    padding-left: 130px;
+    overflow: hidden;
+}
+
+.certi-items:hover {
+    cursor: pointer;
+}
+
+.certi-items > img {
+    position: absolute;
+    left: -35px;
+}
+
+.certi-items > div {
+    color: white;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.certi-items-title {
+    font-size: 25px;
+}
+
+.certi-items-title > span {
+    color: aqua;
+}
+
+.certi-items-describe {
+    font-size: 15px;
+}

@@ -1,0 +1,85 @@
+/* Animation */
+@keyframes changeHeightSmaller {
+    from {
+        height: 124px;
+        background-color: rgb(32,14,53);
+    }
+
+    to {
+        height: 86px;
+        background-color: rgb(32,14,53);
+    }
+}
+
+@keyframes changeHeightBigger {
+    from {
+        height: 86px;
+        background-color: rgb(32,14,53);
+    }
+
+    to {
+        height: 124px;
+        background-color: transparent;
+    }
+}
+
+/* CSS */
+.header {
+    height: 124px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    z-index: 5;
+}
+
+.header--smaller {
+    animation: changeHeightSmaller 0.5s ease;
+}
+
+.header--bigger {
+    animation: changeHeightBigger 0.5s ease;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.logo span {
+    color: var(--aqua-color);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    width: 471px;
+    justify-content: space-between;
+}
+
+.list .list-items a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list .list-items a:hover {
+    color: var(--aqua-color);
+}
+
+.authentication {
+    color: white;
+    font-weight: 500;
+}
+
+.authentication a {
+    color: white;
+    text-decoration: none;
+}
+
+.authentication a:hover {
+    color: var(--aqua-color);
+}
